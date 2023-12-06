@@ -1,0 +1,265 @@
+.header{
+    background-color: var(--text-color);
+}
+
+.div-menu{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    box-shadow: 2rem 2rem 3rem; 
+}
+
+.titulo{
+    margin-right: 5rem;
+    font-size: 2rem;
+}
+
+.navegador{
+    display: flex;
+    align-items: center;
+}
+
+.opcion{
+    margin-right: 7rem;
+    width: 10rem;
+    text-align: center;
+    border-left: solid black;
+    border-right: solid black;
+}
+
+.opcion a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.opcion:hover{
+    background-color: lightgreen;
+}
+
+.sect-pres{
+    background-image: url(../img/fondo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: lightslategray;
+    margin-top: 1rem;
+    box-shadow: 2rem 2rem 1rem 0.4rem;
+    padding-bottom: 2rem;
+}
+
+.presentacion{
+    padding: 5rem;
+}
+
+.text-peque{
+    color: var(--text-color);
+}
+
+.text-grande{
+    font-size: 2.5rem;
+    color: var(--text-color);
+}
+
+.text-mid{
+    font-size: 1.5rem;
+    color: var(--text-color);
+}
+
+.pres-btn{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+    width: 15rem;
+}
+
+.btn-left{
+    background-color: black;
+    color: white;
+    height: 2rem;
+    border-radius: 0.4rem;
+}
+
+.btn-left:hover{
+    background-color: var(--btn-color);
+}
+
+
+.btn-right{
+    background-color: black;
+    color: white;
+    height: 2rem;
+    border-radius: 0.4rem;
+}
+
+.btn-right:hover{
+    background-color: var(--btn-color);
+}
+
+
+.card-info{
+    width: 40rem;
+    background-color: var(--bg-c);
+    border: solid lightgray;
+    border-radius: 0.4rem;
+    text-align: justify;
+    padding: 1rem;
+    position: relative;
+    margin: auto;
+}
+
+.text-img{
+    display: flex;
+}
+
+.card-img{
+    width: 10rem;
+    height: auto;
+}
+
+.card-text{
+    padding-left: 3rem;
+}
+
+.card-sub{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.card-fin{
+    margin-top: 1rem;
+}
+
+.card-btn{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+    width: 15rem;
+    margin: auto;
+}
+
+/**Aquí empieza el css de el html Proyectos**/
+
+.sect-proyect{
+    background-image: url(../img/fondo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: lightslategray;
+    margin-top: 1rem;
+    box-shadow: 2rem 2rem 1rem 0.4rem;
+    padding-bottom: 2rem;
+}
+
+.deslizador-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    max-width: 100rem;
+    margin: 0 auto;
+  }
+
+  .deslizador {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .deslizar {
+    min-width: 100%;
+    box-sizing: border-box;  
+  }
+
+  #deslizar1:checked ~ .deslizador-container .deslizador {
+    transform: translateX(0);
+  }
+
+  #deslizar2:checked ~ .deslizador-container .deslizador {
+    transform: translateX(-100%);
+  }
+
+  #deslizar3:checked ~ .deslizador-container .deslizador {
+    transform: translateX(-200%);
+  }
+
+  #deslizar4:checked ~ .deslizador-container .deslizador {
+    transform: translateX(-300%);
+  }
+
+  #deslizar5:checked ~ .deslizador-container .deslizador {
+    transform: translateX(-400%);
+  }
+
+.deslizar-spotify{
+    height: 70rem;
+    width: 100rem;
+  }
+
+  .deslizar-liga{
+    height: 70rem;
+    width: 100rem;
+  }
+
+  .deslizar-ebay{
+    height: 70rem;
+    width: 100rem;
+  }
+
+  .deslizar-floristeria{
+    height: 70rem;
+    width: 100rem;
+  }
+
+  .deslizar-ecomerce{
+    height: 70rem;
+    width: 100rem;
+  }
+
+  /* Oculta el input radio predeterminado */
+
+  input[type="radio"] {
+    display: none; 
+  }
+
+  /* Ajusta los controles según sea necesario */
+  .deslizador-ctrl {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px; 
+  }
+
+  label {
+    cursor: pointer;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-color: #bbb;
+    border-radius: 50%;
+    margin: 0 4px;
+  }
+
+
+  /**Aquí empieza el estilo de la página Contacto**/
+  
+  .sect-mapa{
+    background-image: url(../img/fondo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: lightslategray;
+    margin-top: 1rem;
+    box-shadow: 2rem 2rem 1rem 0.4rem;
+    padding-bottom: 2rem;
+  }
+
+  .mapa-text{
+    font-size: 2rem;
+    margin-left: 30rem;
+  }
+
+  .div-mapa{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+  }
+
+  .contacto{
+    background-color: var(--bg-c);
+    height: 6rem;
+  }

@@ -1,0 +1,45 @@
+.footer{
+    box-shadow: 1rem 1rem 1rem 1rem;
+}
+
+.footer-div{
+    background-color: var(--footer-bg);
+    color: var(--text-color);
+    width: 100%;
+}
+
+
+
+.tit-footer{
+    font-size: 2rem;
+    margin-left: 5rem;
+    text-decoration: underline;
+}
+
+.footer-text{
+    width: 15rem;
+    margin-top: 1rem;
+    margin-left: 5rem;
+}
+
+.btn-footer{
+    margin-left: 5rem;
+    margin-top: 1rem;
+    width: 15rem;
+    background-color: black;
+    border-radius: 1rem;
+}
+
+.btn-footer a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+/**footer de la página de proyectos**/
+
+.payments{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}

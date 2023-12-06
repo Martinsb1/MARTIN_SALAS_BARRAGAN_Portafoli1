@@ -1,0 +1,51 @@
+.NewsLetter{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin-top: 5rem;
+  width: 50%;
+  margin-left: 25%;
+}
+
+.NewsLetter1{
+  display: flex;
+  flex: 1;
+  background-color: green;
+  color: white;
+  font-size: 2rem;
+}
+
+.NewsLetter2{
+  display: flex;
+  flex: 1;
+  background-color: var(--bg-c);
+}
+
+.NewsLetter-title{
+  flex: 1;
+  border: 1px solid;
+  padding: 20px;
+  text-align: center;
+}
+
+.NewsLetter-cont{
+  flex: 1;
+  border: 1px solid;
+  padding: 20px;
+  text-align: center;
+  
+}
+
+.redes-sociales{
+  display: flex;
+  justify-content:space-evenly ;
+  margin-top: 1rem;
+}
+
+.btn-NewsLetter{
+  background-color: black;
+  border-radius: 0.5rem;
+  color: white;
+  height: 3rem;
+}
+
